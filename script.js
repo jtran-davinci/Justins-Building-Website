@@ -8,6 +8,8 @@ var Budget = null;
 var AvailableBudget = null;
 var Total = 0;
 
+// Audio Variables
+var InstallAudio = false;
 // FPS Texts
 var ValorantText = document.getElementById("valorantFPS");
 var RobloxText = document.getElementById("robloxFPS");
@@ -2498,14 +2500,31 @@ function selectPart(category, part) {
   }
 
   updateTotalPrice();
-  playSound(installSounds[category]);
+  playSound(installSounds[category], true);
   closePrompt();
   checkSelection();
 }
 
-function playSound(src) {
+function playSound(src, partbeinginstalled) {
   var audio = new Audio(src);
+
+  if (partbeinginstalled) {
+    InstallAudio = true;
+  } else {
+    if (InstallAudio) {
+      audio.volume = 0.07;
+    } else {
+      audio.volume = 1;
+    }
+  }
+
   audio.play();
+
+  audio.addEventListener("ended", function () {
+    if (partbeinginstalled) {
+      InstallAudio = false;
+    }
+  });
 }
 
 function attachButtonSounds() {
@@ -2514,19 +2533,19 @@ function attachButtonSounds() {
   buttons.forEach((btn) => {
     btn.onmouseenter = () => {
       if (!btn.disabled) {
-        playSound(sounds.hover);
+        playSound(sounds.hover, false);
       }
     };
 
     btn.onmouseleave = () => {
       if (!btn.disabled) {
-        playSound(sounds.leave);
+        playSound(sounds.leave, false);
       }
     };
 
     btn.onmousedown = () => {
       if (!btn.disabled) {
-        playSound(sounds.click);
+        playSound(sounds.click, false);
       }
     };
   });
