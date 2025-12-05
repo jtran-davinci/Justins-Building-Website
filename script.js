@@ -951,16 +951,163 @@ var PartDatabase = {
         },
       },
     },
+    [22]: {
+      name: "ASUS Z890-Creator ProArt WiFi",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 489.99,
+      path: "images/parts/motherboard/ASUS_Z890-Creator_ProArt_WiFi.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [23]: {
+      name: "ASRock Z890 Taichi",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 459.99,
+      path: "images/parts/motherboard/ASRock_Z890_Taichi.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [24]: {
+      name: "Gigabyte Z890 AERO G",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 299.99,
+      path: "images/parts/motherboard/Gigabyte_Z890_AERO_G.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [25]: {
+      name: "Gigabyte Z890 AORUS ELITE",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 239.99,
+      path: "images/parts/motherboard/Gigabyte_Z890_AORUS_ELITE.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [26]: {
+      name: "MSI Z890 Gaming Plus WiFi",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 189.99,
+      path: "images/parts/motherboard/MSI_Z890_Gaming_Plus_WiFi.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [27]: {
+      name: "Gigabyte B860 EAGLE WIFI6E",
+      desc: "Intel LGA 1851 ATX Motherboard",
+      price: 149.99,
+      path: "images/parts/motherboard/Gigabyte_B860_EAGLE_WIFI6E.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "ATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [28]: {
+      name: "ASRock Z890M Riptide WIFI",
+      desc: "Intel LGA 1851 microATX Motherboard",
+      price: 259.99,
+      path: "images/parts/motherboard/ASRock_Z890M_Riptide_WIFI.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "microATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [29]: {
+      name: "Gigabyte B860M AORUS ELITE WIFI6E ICE",
+      desc: "Intel LGA 1851 microATX Motherboard",
+      price: 179.99,
+      path: "images/parts/motherboard/Gigabyte_B860M_AORUS_ELITE_WIFI6E_ICE.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "microATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
+    [30]: {
+      name: "MSI B860M-A PRO WIFI",
+      desc: "Intel LGA 1851 microATX Motherboard",
+      price: 149.99,
+      path: "images/parts/motherboard/MSI_B860M-A_PRO_WIFI.png",
+      limits: {
+        [1]: {
+          category: "Motherboard Size",
+          limit: "microATX",
+        },
+        [2]: {
+          category: "Socket",
+          limit: "LGA1851",
+        },
+      },
+    },
   },
   cpu: {
     [1]: {
-      name: "AMD Ryzen 9 7950X",
-      desc: "16 cores, 32 threads, AM5 socket, 4.5 GHz boost",
-      price: 699.99,
-      score: 62340,
-      path: "images/parts/cpu/sample.jpg",
+      name: "Intel Core Ultra 9 285K Arrow Lake",
+      desc: "24 cores, 24 threads, LGA 1851 socket, 3.7 GHz",
+      price: 479.99,
+      score: 67474,
+      path: "images/parts/cpu/Intel_Core_Ultra_9_285K_Arrow_Lake.png",
       limits: {
-        [1]: { category: "Socket Type", limit: "AM5" },
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1851",
+        },
         [2]: {
           category: "Memory",
           limit: "DDR5",
@@ -968,13 +1115,305 @@ var PartDatabase = {
       },
     },
     [2]: {
-      name: "Intel Core i9-14900K",
-      desc: "24 cores, 32 threads, LGA 1700, 5.8 GHz boost",
-      price: 749.99,
-      score: 58544,
-      path: "images/parts/cpu/sample.jpg",
+      name: "Intel Core Ultra 7 265K Arrow Lake",
+      desc: "20 cores, 20 threads, LGA 1851 socket, 3.9 GHz",
+      price: 279.99,
+      score: 58789,
+      path: "images/parts/cpu/Intel_Core_Ultra_7_265K_Arrow_Lake.png",
       limits: {
-        [1]: { category: "Socket Type", limit: "LGA1700" },
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1851",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [3]: {
+      name: "Intel Core Ultra 5 245K Arrow Lake",
+      desc: "14 cores, 14 threads, LGA 1851 socket, 4.2 GHz",
+      price: 279.99,
+      score: 43425,
+      path: "images/parts/cpu/Intel_Core_Ultra_5_245K_Arrow_Lake.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1851",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [4]: {
+      name: "Intel Core i9-13900K Raptor Lakee",
+      desc: "24 cores, 32 threads, LGA 1700 socket, 3.0 GHz",
+      price: 729.99,
+      score: 58368,
+      path: "images/parts/cpu/Intel_Core_i9-13900K_Raptor_Lakee.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1700",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [5]: {
+      name: "Intel Core i7-14700K Raptor Lake",
+      desc: "20 cores, 28 threads, LGA 1700 socket, 3.4 GHz",
+      price: 299.99,
+      score: 52225,
+      path: "images/parts/cpu/Intel_Core_i7-14700K_Raptor_Lake.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1700",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [6]: {
+      name: "Intel Core i5-14400 Raptor Lake",
+      desc: "10 cores, 16 threads, LGA 1700 socket, 2.5 GHz",
+      price: 179.99,
+      score: 25316,
+      path: "images/parts/cpu/Intel_Core_i5-14400_Raptor_Lake.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1700",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [7]: {
+      name: "Intel Core i5-12600KF Alder Lake",
+      desc: "10 cores, 16 threads, LGA 1700 socket, 3.7 GHz",
+      price: 159.99,
+      score: 27588,
+      path: "images/parts/cpu/Intel_Core_i5-12600KF_Alder_Lake.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1700",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [8]: {
+      name: "Intel Core i5-12400 Alder Lake",
+      desc: "6 cores, 12 threads, LGA 1700 socket, 2.5 GHz",
+      price: 149.99,
+      score: 18793,
+      path: "images/parts/cpu/Intel_Core_i5-12400_Alder_Lake.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "LGA1700",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [9]: {
+      name: "AMD Ryzen 7 5800XT Vermeer",
+      desc: "8 cores, 16 threads, AM4 socket, 3.8 GHz",
+      price: 169.99,
+      score: 27996,
+      path: "images/parts/cpu/AMD_Ryzen_7_5800XT_Vermeer.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM4",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [10]: {
+      name: "AMD Ryzen 5 4500 Renoir",
+      desc: "6 cores, 12 threads, AM4 socket, 3.6 GHz",
+      price: 59.99,
+      score: 16048,
+      path: "images/parts/cpu/AMD_Ryzen_5_4500_Renoir.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM4",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [11]: {
+      name: "AMD Ryzen 5 5500GT Cezanne",
+      desc: "6 cores, 12 threads, AM4 socket, 3.7 GHz",
+      price: 119.99,
+      score: 18849,
+      path: "images/parts/cpu/AMD_Ryzen_5_5500GT_Cezanne.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM4",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [12]: {
+      name: "AMD Ryzen 7 5700G Cezanne",
+      desc: "8 cores, 16 threads, AM4 socket, 3.8 GHz",
+      price: 159.99,
+      score: 24360,
+      path: "images/parts/cpu/AMD_Ryzen_7_5700G_Cezanne.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM4",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR4",
+        },
+      },
+    },
+    [13]: {
+      name: "AMD Ryzen 7 9800X3D",
+      desc: "8 cores, 16 threads, AM5 socket, 5.2 GHz",
+      price: 399.99,
+      score: 39962,
+      path: "images/parts/cpu/AMD_Ryzen_7_9800X3D.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [14]: {
+      name: "AMD Ryzen 5 9600X",
+      desc: "6 cores, 12 threads, AM5 socket, 3.9 GHz",
+      price: 399.99,
+      score: 39962,
+      path: "images/parts/cpu/AMD_Ryzen_5_9600X.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [15]: {
+      name: "AMD Ryzen 7 7800X3D",
+      desc: "8 cores, 16 threads, AM5 socket, 4.2 GHz",
+      price: 329.99,
+      score: 34295,
+      path: "images/parts/cpu/AMD_Ryzen_7_7800X3D.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [16]: {
+      name: "AMD Ryzen 7 9700X",
+      desc: "8 cores, 16 threads, AM5 socket, 3.8 GHz",
+      price: 279.99,
+      score: 37145,
+      path: "images/parts/cpu/AMD_Ryzen_7_9700X.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [17]: {
+      name: "AMD Ryzen 7 7700X",
+      desc: "8 cores, 16 threads, AM5 socket, 4.5 GHz",
+      price: 229.99,
+      score: 35603,
+      path: "images/parts/cpu/AMD_Ryzen_7_7700X.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [18]: {
+      name: "AMD Ryzen 5 7600X3D",
+      desc: "6 cores, 12 threads, AM5 socket, 4.1 GHz",
+      price: 199.99,
+      score: 25725,
+      path: "images/parts/cpu/AMD_Ryzen_5_7600X3D.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
+        [2]: {
+          category: "Memory",
+          limit: "DDR5",
+        },
+      },
+    },
+    [19]: {
+      name: "AMD Ryzen 5 8400F",
+      desc: "6 cores, 12 threads, AM5 socket, 4.2 GHz",
+      price: 149.99,
+      score: 24556,
+      path: "images/parts/cpu/AMD_Ryzen_5_8400F.png",
+      limits: {
+        [1]: {
+          category: "Socket Type",
+          limit: "AM5",
+        },
         [2]: {
           category: "Memory",
           limit: "DDR5",
@@ -984,10 +1423,94 @@ var PartDatabase = {
   },
   cpuCooler: {
     [1]: {
-      name: "Noctua NH-D15",
-      desc: "High-performance air cooler, dual tower, 165mm height",
+      name: "Corsair NAUTILUS 360 RS",
+      desc: "ARGB 360mm All in One Liquid CPU Cooling Kit",
+      price: 109.99,
+      path: "images/parts/cpuCooler/Corsair_NAUTILUS_360_RS.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [2]: {
+      name: "Lian Li Hydroshift II LCD-C 360NF",
+      desc: "360mm Fanless All in One Liquid CPU Cooling Kit",
+      price: 159.99,
+      path: "images/parts/cpuCooler/Lian_Li_Hydroshift_II_LCD-C_360NF.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [3]: {
+      name: "NZXT Kraken Elite RGB",
+      desc: "360mm All in One Liquid CPU Cooling Kit",
+      price: 279.99,
+      path: "images/parts/cpuCooler/NZXT_Kraken_Elite_RGB.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [4]: {
+      name: "be quiet SILENT LOOP 3",
+      desc: "420mm All in One Liquid CPU Cooling Kit",
+      price: 174.99,
+      path: "images/parts/cpuCooler/be_quiet_SILENT_LOOP_3.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [5]: {
+      name: "NZXT Kraken",
+      desc: "280mm All in One Liquid CPU Cooling Kit",
       price: 99.99,
-      path: "images/parts/cpuCooler/sample.jpg",
+      path: "images/parts/cpuCooler/NZXT_Kraken.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [6]: {
+      name: "Razer Hanbo Chroma RGB",
+      desc: "240mm All in One Water Cooling Kit",
+      price: 59.99,
+      path: "images/parts/cpuCooler/Razer_Hanbo_Chroma_RGB.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [7]: {
+      name: "NZXT Kraken 120",
+      desc: "120mm AIO Water Cooling Kit",
+      price: 74.99,
+      path: "images/parts/cpuCooler/NZXT_Kraken_120.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "All-in-One Liquid Cooler",
+        },
+      },
+    },
+    [8]: {
+      name: "be quiet DARK ROCK PRO 5",
+      desc: "CPU Air Cooler",
+      price: 109.99,
+      path: "images/parts/cpuCooler/be_quiet_DARK_ROCK_PRO_5.png",
       limits: {
         [1]: {
           category: "Cooler Type",
@@ -995,34 +1518,184 @@ var PartDatabase = {
         },
       },
     },
-    [2]: {
-      name: "Corsair iCUE H150i",
-      desc: "360mm liquid cooler, RGB lighting",
-      price: 189.99,
-      path: "images/parts/cpuCooler/sample.jpg",
+    [9]: {
+      name: "Thermalright Phantom Spirit 120 SE",
+      desc: "CPU Air Cooler",
+      price: 54.99,
+      path: "images/parts/cpuCooler/Thermalright_Phantom_Spirit_120_SE.png",
       limits: {
         [1]: {
           category: "Cooler Type",
-          limit: "Liquid Cooler",
+          limit: "Air Cooler",
+        },
+      },
+    },
+    [10]: {
+      name: "Thermalright Peerless Assassin 140",
+      desc: "CPU Air Cooler",
+      price: 59.99,
+      path: "images/parts/cpuCooler/Thermalright_Peerless_Assassin_140.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "Air Cooler",
+        },
+      },
+    },
+    [11]: {
+      name: "Cooler Master Hyper 212",
+      desc: "CPU Air Cooler",
+      price: 19.99,
+      path: "images/parts/cpuCooler/Cooler_Master_Hyper_212.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "Air Cooler",
+        },
+      },
+    },
+    [12]: {
+      name: "be quiet PURE ROCK 3",
+      desc: "CPU Air Cooler",
+      price: 41.99,
+      path: "images/parts/cpuCooler/be_quiet_PURE_ROCK_3.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "Air Cooler",
+        },
+      },
+    },
+    [13]: {
+      name: "Noctua NH-D15S Chromax Black",
+      desc: "CPU Air Cooler",
+      price: 129.99,
+      path: "images/parts/cpuCooler/Noctua_NH-D15S_Chromax_Black.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "Air Cooler",
+        },
+      },
+    },
+    [14]: {
+      name: "NZXT T120",
+      desc: "CPU Air Cooler",
+      price: 24.99,
+      path: "images/parts/cpuCooler/NZXT_T120.png",
+      limits: {
+        [1]: {
+          category: "Cooler Type",
+          limit: "Air Cooler",
         },
       },
     },
   },
   ram: {
     [1]: {
-      name: "Corsair Vengeance LPX 32GB (2x16GB)",
-      desc: "DDR5, 6000MHz, CL36",
-      price: 129.99,
-      path: "images/parts/ram/sample.jpg",
+      name: "Patriot Viper Steel",
+      desc: "64GB (2 x 32GB), DDR4, 3600MHz, CL18",
+      price: 555.99,
+      path: "images/parts/ram/Patriot_Viper_Steel_64GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR4" },
+      },
+    },
+    [2]: {
+      name: "Crucial Pro",
+      desc: "64GB (2 x 32GB), DDR4, 3200MHz, CL22",
+      price: 291.99,
+      path: "images/parts/ram/Crucial_Pro_64GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR4" },
+      },
+    },
+    [3]: {
+      name: "Patriot Viper Steel RGB",
+      desc: "32GB (2 x 16GB), DDR4, 3600MHz, CL18",
+      price: 234.99,
+      path: "images/parts/ram/Patriot_Viper_Steel_RGB_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR4" },
+      },
+    },
+    [4]: {
+      name: "Kingston FURY Renegade Pro",
+      desc: "128GB (4 x 32GB), DDR5, 5600MHz, CL28",
+      price: 1699.99,
+      path: "images/parts/ram/Kingston_FURY_Renegade_Pro_128GB.png",
       limits: {
         [1]: { category: "Memory Type", limit: "DDR5" },
       },
     },
-    [2]: {
-      name: "G.Skill Trident Z5 RGB 32GB (2x16GB)",
-      desc: "DDR5, 6400MHz, CL32, RGB",
-      price: 179.99,
-      path: "images/parts/ram/sample.jpg",
+    [5]: {
+      name: "TeamGroup T-Create Master",
+      desc: "64GB (4 x 16GB), DDR5, 6400MHz, CL32",
+      price: 699.99,
+      path: "images/parts/ram/TeamGroup_T-Create_Master_64GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [6]: {
+      name: "TeamGroup T-Create Expert",
+      desc: "64GB (2 x 32GB), DDR5, 6000MHz, CL34",
+      price: 527.99,
+      path: "images/parts/ram/TeamGroup_T-Create_Expert_64GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [7]: {
+      name: "G.Skill Ripjaws M5 Neo Series",
+      desc: "32GB (2 x 16GB), DDR5, 6000MHz, CL28",
+      price: 419.99,
+      path: "images/parts/ram/G.Skill_Ripjaws_M5_Neo_RGB_Series_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [8]: {
+      name: "Corsair Dominator Titanium RGB",
+      desc: "32GB (2 x 16GB), DDR5, 7000MHz, CL34",
+      price: 393.99,
+      path: "images/parts/ram/Corsair_Dominator_Titanium_RGB_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [9]: {
+      name: "Corsair VENGEANCE RGB",
+      desc: "32GB (2 x 16GB), DDR5, 6000MHz, CL36",
+      price: 349.99,
+      path: "images/parts/ram/Corsair_VENGEANCE_RGB_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [10]: {
+      name: "Crucial Pro Overclocking",
+      desc: "32GB (2 x 16GB), DDR5, 6400MHz, CL32",
+      price: 347.99,
+      path: "images/parts/ram/Crucial_Pro_Overclocking_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [11]: {
+      name: "G.Skill Flare X5 Series",
+      desc: "32GB (2 x 16GB), DDR5, 6000MHz, CL36",
+      price: 329.99,
+      path: "images/parts/ram/G.Skill_Flare_X5_Series_32GB.png",
+      limits: {
+        [1]: { category: "Memory Type", limit: "DDR5" },
+      },
+    },
+    [12]: {
+      name: "Crucial Pro",
+      desc: "32GB (2 x 16GB), DDR5, 6400MHz, CL38",
+      price: 321.99,
+      path: "images/parts/ram/Crucial_Pro_32GB.png",
       limits: {
         [1]: { category: "Memory Type", limit: "DDR5" },
       },
@@ -1030,26 +1703,110 @@ var PartDatabase = {
   },
   ssd: {
     [1]: {
-      name: "Samsung 990 Pro 1TB",
-      desc: "NVMe Gen4, 7000MB/s read, 5000MB/s write",
-      price: 149.99,
-      path: "images/parts/ssd/sample.jpg",
+      name: "WD Black SN850P",
+      desc: "8TB, 7,200MB/s read, 6,600MB/s write",
+      price: 799.99,
+      path: "images/parts/ssd/WD_Black_SN850P_8TB.png",
       limits: {
         [1]: {
           category: "Storage Type",
-          limit: "m.2 NVMe SSD",
+          limit: "NAND NVMe SSD",
         },
       },
     },
     [2]: {
-      name: "WD Black SN850X 2TB",
-      desc: "NVMe Gen4, 7300MB/s read, 6000MB/s write",
-      price: 249.99,
-      path: "images/parts/ssd/sample.jpg",
+      name: "Crucial T705",
+      desc: "4TB, 14,100MB/s read, 12,600MB/s write",
+      price: 479.99,
+      path: "images/parts/ssd/Crucial_T705_4TB.png",
       limits: {
         [1]: {
           category: "Storage Type",
-          limit: "m.2 NVMe SSD",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [3]: {
+      name: "Samsung 9100 PRO",
+      desc: "4TB, 14,800MB/s read, 13,400MB/s write",
+      price: 439.99,
+      path: "images/parts/ssd/Samsung_9100_PRO_4TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [4]: {
+      name: "WD Black SN850X",
+      desc: "4TB, 7,300MB/s read, 6,600MB/s write",
+      price: 399.99,
+      path: "images/parts/ssd/WD_Black_SN850X_4TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [5]: {
+      name: "Samsung 870 EVO",
+      desc: "4TB, 560MB/s read, 530MB/s write",
+      price: 329.99,
+      path: "images/parts/ssd/Samsung_870_EVO_4TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "Solid State Drive",
+        },
+      },
+    },
+    [6]: {
+      name: "Samsung 9100 PRO",
+      desc: "2TB, 14,700MB/s read, 13,400MB/s write",
+      price: 219.99,
+      path: "images/parts/ssd/Samsung_9100_PRO_2TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [7]: {
+      name: "SK Hynix Platinum P51",
+      desc: "1TB, 13,400MB/s read, 13,400MB/s write",
+      price: 189.99,
+      path: "images/parts/ssd/SK_Hynix_Platinum_P51_1TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [8]: {
+      name: "Samsung 990 PRO",
+      desc: "1TB, 7,450MB/s read, 6,900MB/s write",
+      price: 109.99,
+      path: "images/parts/ssd/Samsung_990_PRO_1TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
+        },
+      },
+    },
+    [9]: {
+      name: "Inland Performance Plus",
+      desc: "1TB, 7,000MB/s read, 5,500MB/s write",
+      price: 99.99,
+      path: "images/parts/ssd/Inland_Performance_Plus_1TB.png",
+      limits: {
+        [1]: {
+          category: "Storage Type",
+          limit: "NAND NVMe SSD",
         },
       },
     },
