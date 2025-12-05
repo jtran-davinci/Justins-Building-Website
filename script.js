@@ -1813,25 +1813,245 @@ var PartDatabase = {
   },
   gpu: {
     [1]: {
-      name: "NVIDIA RTX 4090",
-      desc: "24GB GDDR6X, PCIe 4.0",
-      price: 1599.99,
-      score: 38118,
-      path: "images/parts/gpu/sample.jpg",
+      name: "ASUS RTX 5090 Astral",
+      desc: "32GB GDDR7, PCIe 5.0",
+      price: 3359.99,
+      score: 38849,
+      path: "images/parts/gpu/ASUS_NVIDIA_GeForce_RTX_5090.png",
       limits: {
-        [1]: { category: "GPU Length", limit: "350mm" },
-        [2]: { category: "Power Consumption", limit: "850W" },
+        [1]: { category: "GPU Length", limit: "357mm" },
+        [2]: { category: "Power Consumption", limit: "1000W" },
       },
     },
     [2]: {
-      name: "AMD Radeon RX 7900 XTX",
-      desc: "24GB GDDR6, PCIe 4.0",
-      price: 999.99,
-      score: 31294,
-      path: "images/parts/gpu/sample.jpg",
+      name: "ASUS RTX 5080 Astral Dhahab",
+      desc: "16GB GDDR7, PCIe 5.0",
+      price: 1899.99,
+      score: 35901,
+      path: "images/parts/gpu/ASUS_NVIDIA_GeForce_RTX_5080_Dhahab.png",
       limits: {
-        [1]: { category: "GPU Length", limit: "336mm" },
-        [2]: { category: "Power Consumption", limit: "1100W" },
+        [1]: { category: "GPU Length", limit: "357mm" },
+        [2]: { category: "Power Consumption", limit: "850W" },
+      },
+    },
+    [3]: {
+      name: "Gigabyte RTX 5070 Ti AERO",
+      desc: "16GB GDDR7, PCIe 5.0",
+      price: 859.99,
+      score: 32545,
+      path: "images/parts/gpu/Gigabyte_NVIDIA_GeForce_RTX_5070_Ti.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "340mm" },
+        [2]: { category: "Power Consumption", limit: "750W" },
+      },
+    },
+    [4]: {
+      name: "Gigabyte RTX 5070 Ti EAGLE SFF",
+      desc: "16GB GDDR7, PCIe 5.0",
+      price: 819.99,
+      score: 32545,
+      path: "images/parts/gpu/Gigabyte_RTX_5070_Ti_EAGLE_SFF.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "304mm" },
+        [2]: { category: "Power Consumption", limit: "750W" },
+      },
+    },
+    [5]: {
+      name: "MSI RTX 5070 VANGUARD SOC LAUNCH",
+      desc: "12GB GDDR7, PCIe 5.0",
+      price: 779.99,
+      score: 28837,
+      path: "images/parts/gpu/MSI_RTX_5070_VANGUARD_SOC_LAUNCH.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "337mm" },
+        [2]: { category: "Power Consumption", limit: "650W" },
+      },
+    },
+    [6]: {
+      name: "Zotac RTX 5070 Twin Edge",
+      desc: "12GB GDDR7, PCIe 5.0",
+      price: 549.99,
+      score: 28837,
+      path: "images/parts/gpu/Zotac_RTX_5070_Twin_Edge.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "241mm" },
+        [2]: { category: "Power Consumption", limit: "650W" },
+      },
+    },
+    [7]: {
+      name: "Gigabyte RTX 5060 Ti Windforce",
+      desc: "16GB GDDR7, PCIe 5.0",
+      price: 449.99,
+      score: 22780,
+      path: "images/parts/gpu/Gigabyte_RTX_5060_Ti_Windforce.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "208mm" },
+        [2]: { category: "Power Consumption", limit: "650W" },
+      },
+    },
+    [8]: {
+      name: "Zotac RTX 5060 Ti Twin Edge",
+      desc: "16GB GDDR7, PCIe 5.0",
+      price: 429.99,
+      score: 22780,
+      path: "images/parts/gpu/Zotac_RTX_5060_Ti_Twin_Edge.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "220mm" },
+        [2]: { category: "Power Consumption", limit: "650W" },
+      },
+    },
+    [9]: {
+      name: "Zotac RTX 5050 Solo",
+      desc: "8GB GDDR6, PCIe 5.0",
+      price: 249.99,
+      score: 17110,
+      path: "images/parts/gpu/Zotac_RTX_5050_Solo.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "165mm" },
+        [2]: { category: "Power Consumption", limit: "550W" },
+      },
+    },
+    [10]: {
+      name: "XFX RX 7900 XTX Speedster MERC 310",
+      desc: "24GB GDDR6, PCIe 4.0",
+      price: 799.99,
+      score: 31295,
+      path: "images/parts/gpu/XFX_RX_7900_XTX_Speedster_MERC_310.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "343mm" },
+        [2]: { category: "Power Consumption", limit: "850W" },
+      },
+    },
+    [11]: {
+      name: "ASUS RX 9070 XT TUF Gaming",
+      desc: "16GB GDDR6, PCIe 4.0",
+      price: 779.99,
+      score: 26918,
+      path: "images/parts/gpu/ASUS_RX_9070_XT_TUF_Gaming.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "330mm" },
+        [2]: { category: "Power Consumption", limit: "850W" },
+      },
+    },
+    [12]: {
+      name: "PowerColor RX 9070 XT Devil Spectral",
+      desc: "16GB GDDR6, PCIe 4.0",
+      price: 779.99,
+      score: 26918,
+      path: "images/parts/gpu/PowerColor_RX_9070_XT_Devil_Spectral.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "352mm" },
+        [2]: { category: "Power Consumption", limit: "900W" },
+      },
+    },
+    [13]: {
+      name: "ASRock RX 7900 XTX Phantom Gaming",
+      desc: "24GB GDDR6, PCIe 4.0",
+      price: 699.99,
+      score: 31295,
+      path: "images/parts/gpu/ASRock_RX_7900_XTX_Phantom_Gaming.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "330mm" },
+        [2]: { category: "Power Consumption", limit: "1000W" },
+      },
+    },
+    [14]: {
+      name: "Gigabyte AMD RX 9070 XT ProArt",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 719.99,
+      score: 26918,
+      path: "images/parts/gpu/Gigabyte_AMD_RX_9070_XT_ProArt.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "288mm" },
+        [2]: { category: "Power Consumption", limit: "850W" },
+      },
+    },
+    [15]: {
+      name: "XFX RX 9070 XT Quicksilver",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 689.99,
+      score: 26918,
+      path: "images/parts/gpu/XFX_RX_9070_XT_Quicksilver.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "355mm" },
+        [2]: { category: "Power Consumption", limit: "800W" },
+      },
+    },
+    [16]: {
+      name: "ASUS RX 9070 XT Prime",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 649.99,
+      score: 26918,
+      path: "images/parts/gpu/ASUS_RX_9070_XT_Prime.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "313mm" },
+        [2]: { category: "Power Consumption", limit: "700W" },
+      },
+    },
+    [17]: {
+      name: "ASRock RX 9070 Challenger",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 499.99,
+      score: 25373,
+      path: "images/parts/gpu/ASRock_RX_9070_Challenger.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "290mm" },
+        [2]: { category: "Power Consumption", limit: "700W" },
+      },
+    },
+    [18]: {
+      name: "Gigabyte RX 9060 XT ProArt",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 399.99,
+      score: 20023,
+      path: "images/parts/gpu/Gigabyte_RX_9060_XT_ProArt.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "281mm" },
+        [2]: { category: "Power Consumption", limit: "450W" },
+      },
+    },
+    [19]: {
+      name: "Gigabyte RX 9060 XT GAMING",
+      desc: "16GB GDDR6, PCIe 5.0",
+      price: 379.99,
+      score: 20023,
+      path: "images/parts/gpu/Gigabyte_RX_9060_XT_GAMING.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "281mm" },
+        [2]: { category: "Power Consumption", limit: "450W" },
+      },
+    },
+    [20]: {
+      name: "Gigabyte RX 7600 XT Gaming",
+      desc: "16GB GDDR6, PCIe 4.0",
+      price: 359.99,
+      score: 17258,
+      path: "images/parts/gpu/Gigabyte_RX_7600_XT_Gaming.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "281mm" },
+        [2]: { category: "Power Consumption", limit: "600W" },
+      },
+    },
+    [21]: {
+      name: "XFX RX 7600 Speedster SWFT210",
+      desc: "8GB GDDR6, PCIe 4.0",
+      price: 249.99,
+      score: 16578,
+      path: "images/parts/gpu/XFX_RX_7600_Speedster_SWFT210.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "241mm" },
+        [2]: { category: "Power Consumption", limit: "550W" },
+      },
+    },
+    [22]: {
+      name: "PowerColor RX 6600 XT Red Devil",
+      desc: "8GB GDDR6, PCIe 4.0",
+      price: 179.99,
+      score: 16456,
+      path: "images/parts/gpu/PowerColor_RX_6600_XT_Red_Devil.png",
+      limits: {
+        [1]: { category: "GPU Length", limit: "251mm" },
+        [2]: { category: "Power Consumption", limit: "600W" },
       },
     },
   },
@@ -1907,6 +2127,7 @@ function checkCompatibility(category, partUi) {
         partUi
           .querySelector(".incompatible-overlay")
           .classList.remove("hidden");
+        partUi.classList.add("push-to-bottom");
         partUi.querySelector(".incompatible-overlay p").textContent =
           "Incompatible Motherboard Size";
         partUi.querySelector(".part-select").disabled = true;
@@ -1916,6 +2137,7 @@ function checkCompatibility(category, partUi) {
         partUi
           .querySelector(".incompatible-overlay")
           .classList.remove("hidden");
+        partUi.classList.add("push-to-bottom");
         partUi.querySelector(".incompatible-overlay p").textContent =
           "Incompatible Motherboard Size";
         partUi.querySelector(".part-select").disabled = true;
@@ -1925,6 +2147,7 @@ function checkCompatibility(category, partUi) {
         partUi
           .querySelector(".incompatible-overlay")
           .classList.remove("hidden");
+        partUi.classList.add("push-to-bottom");
         partUi.querySelector(".incompatible-overlay p").textContent =
           "Incompatible Motherboard Size";
         partUi.querySelector(".part-select").disabled = true;
@@ -1933,6 +2156,7 @@ function checkCompatibility(category, partUi) {
   } else if (category.category == "Socket Type") {
     if (ConfigLimits.socket != category.limit) {
       partUi.querySelector(".incompatible-overlay").classList.remove("hidden");
+      partUi.classList.add("push-to-bottom");
       partUi.querySelector(".incompatible-overlay p").textContent =
         "Incorrect Socket Type";
       partUi.querySelector(".part-select").disabled = true;
@@ -1940,6 +2164,7 @@ function checkCompatibility(category, partUi) {
   } else if (category.category == "Memory Type") {
     if (ConfigLimits.memoryType != category.limit) {
       partUi.querySelector(".incompatible-overlay").classList.remove("hidden");
+      partUi.classList.add("push-to-bottom");
       partUi.querySelector(".incompatible-overlay p").textContent =
         "Incompatible Memory";
       partUi.querySelector(".part-select").disabled = true;
@@ -1949,6 +2174,7 @@ function checkCompatibility(category, partUi) {
       Number(ConfigLimits.gpuMaxSize) <= Number(category.limit.slice(0, -2))
     ) {
       partUi.querySelector(".incompatible-overlay").classList.remove("hidden");
+      partUi.classList.add("push-to-bottom");
       partUi.querySelector(".incompatible-overlay p").textContent =
         "Incompatible GPU Size";
       partUi.querySelector(".part-select").disabled = true;
@@ -1958,6 +2184,7 @@ function checkCompatibility(category, partUi) {
       Number(ConfigLimits.wattageNeeded) >= Number(category.limit.slice(0, -1))
     ) {
       partUi.querySelector(".incompatible-overlay").classList.remove("hidden");
+      partUi.classList.add("push-to-bottom");
       partUi.querySelector(".incompatible-overlay p").textContent =
         "Insufficient Power";
       partUi.querySelector(".part-select").disabled = true;
