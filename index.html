@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Justin's PC Building Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="prompt-overlay" class="prompt-overlay"> 
+      <div id="prompt-content" class="prompt-content hidden">
+        <div class="prompt-header">
+          <h1 id="prompt-title">Case</h1>
+          <p id="prompt-desc">Choose the part that you like and fits you.</p>
+          <button class="prompt-close" id="closePrompt" onclick="closePrompt()">&times;</button>
+        </div>
+        <div id="part-container" class="parts-prompt">
+          <div id="part-template" class="individual-part primary hidden">
+            <div class="incompatible-overlay hidden">
+              <h1>Incompatible</h1>
+              <p>Size restriction</p>
+            </div>
+
+            <div class="part-row1">
+            <div class="part-image-div">
+              <img class="part-image"/>
+            </div>
+            <div class="part-info">
+              <h1>Lian-Li O11 Vision</h1>
+              <p>Fish tank design, for people who like aesthetics.</p>
+            </div>
+            <div class="part-specifications">
+              <div class="part-s-title">
+                <h1>Specifications</h1>
+              </div>
+
+              <div class="part-s-categories">
+                <div class="part-individual-category hidden">
+                  <h1>Title</h1>
+                  <p>Detail</p>
+                </div>
+              </div>
+            </div>
+            <div class="part-select-div">
+              <button class="part-select">$700</button>
+            </div>
+          </div>
+          <div class="part-row2">
+            <div class="part-s-title">
+              <h1>Specifications</h1>
+            </div>
+
+            <div class="part-s-categories">
+                <div class="part-mobile-individual-category hidden">
+                  <h1>Title</h1>
+                  <p>Detail</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div id="results-content" class="results-content hidden">
+        <div class="prompt-header">
+          <h1 id="prompt-title">Performance Results</h1>
+          <p id="prompt-desc">Your computer's estimated performance.</p>
+          <button class="prompt-close" id="closePrompt" onclick="closePrompt()">&times;</button>
+        </div>
+        <div class="games">
+          <div class="half-games">
+            <div class="game">
+              <img src="images/games/valorant.jpg" class="game-image"/>
+              <h1 id="valorantFPS">100FPS</fps>
+            </div>
+            <div class="game">
+              <img src="images/games/roblox.jpg" class="game-image"/>
+              <h1 id="robloxFPS">100FPS</fps>
+            </div>
+          </div>
+          <div class="half-games">
+            <div class="game">
+              <img src="images/games/fortnite.jpg" class="game-image"/>
+              <h1 id="fortniteFPS">100FPS</fps>
+            </div>
+            <div class="game">
+              <img src="images/games/cyberpunk.png" class="game-image"/>
+              <h1 id="cyberpunkFPS">100FPS</fps>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-section">
+          <h1>Overall Results</h1>
+          <h2 class="green" >Good!</h2>
+        </div>
+      </div>
+    </div>
+    
+    <div class="top primary">
+      <div class="info-box">
+        <h1>Build a PC</h1>
+      </div>
+      <div class="info-box">
+        <h2>Enter a budget and pick all the parts to test your PC!</h2>
+        <h2>Your PC gets built as you go!</h2>
+      </div>
+    </div>
+
+    <div class="parts primary no-scroll" id="allParts">
+      <div class="parts-overlay" id="budgetOverlay">
+        <h1>Please enter a budget to continue</h1>
+      </div>
+      <div class="row">
+        <div class="quadrant">
+          <div class="part-box" id="caseBox">
+            <img src="images/icons/case.png" class="partimg" id="caseImg"></img>
+            <div id="caseTexts" class="mobile-part-div">
+              <h1 id="caseTitle">Case</h1>
+              <p id="caseDesc">The case holds all of the components!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('case')" id="caseButton">Select Component</button>
+          </div>
+          <div class="part-box blurout" id="motherboardBox">
+            <img src="images/icons/motherboard.png" class="partimg" id="motherboardImg"></img>
+            <div id="motherboardTexts" class="mobile-part-div">
+              <h1 id="motherboardTitle" >Motherboard</h1>
+              <p id="motherboardDesc">Connects all the parts of the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('motherboard')" id="motherboardButton">Select Component</button>
+          </div>
+        </div>
+        <div class="quadrant">
+          <div class="part-box blurout" id="cpuBox">
+            <img src="images/icons/cpu.png" class="partimg" id="cpuImg"></img>
+            <div id="cpuTexts" class="mobile-part-div">
+              <h1 id="cpuTitle">CPU</h1>
+              <p id="cpuDesc">The brain of the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('cpu')" id="cpuButton">Select Component</button>
+          </div>
+          <div class="part-box blurout" id="cpuCoolerBox">
+            <img src="images/icons/cpucooler.png" class="partimg" id="cpuCoolerImg"></img>
+            <div id="cpuCoolerTexts" class="mobile-part-div">
+              <h1 id="cpuCoolerTitle">CPU Cooler</h1>
+              <p id="cpuCoolerDesc">Cools down the brain of the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('cpuCooler')" id="cpuCoolerButton">Select Component</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="quadrant">
+          <div class="part-box blurout" id="ramBox">
+            <img src="images/icons/ram.png" class="partimg" id="ramImg"></img>
+            <div id="ramTexts" class="mobile-part-div">
+              <h1 id="ramTitle">RAM</h1>
+              <p id="ramDesc">Short term memory of the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('ram')" id="ramButton">Select Component</button>
+          </div>
+          <div class="part-box blurout" id="ssdBox">
+            <img src="images/icons/ssd.png" class="partimg" id="ssdImg"></img>
+            <div id="ssdTexts" class="mobile-part-div">
+              <h1 id="ssdTitle">Storage</h1>
+              <p id="ssdDesc">Long term memory of the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('ssd')" id="ssdButton">Select Component</button>
+          </div>
+        </div>
+        <div class="quadrant">
+          <div class="part-box blurout" id="gpuBox">
+            <img src="images/icons/gpu.png" class="partimg" id="gpuImg"></img>
+            <div id="gpuTexts" class="mobile-part-div">
+              <h1 id="gpuTitle">Graphics Card</h1>
+              <p id="gpuDesc">Renders the 3D parts on a computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('gpu')" id="gpuButton">Select Component</button>
+          </div>
+          <div class="part-box blurout" id="psuBox">
+            <img src="images/icons/psu.png" class="partimg" id="psuImg"></img>
+            <div id="psuTexts" class="mobile-part-div">
+              <h1 id="psuTitle">Power Supply</h1>
+              <p id="psuDesc">Supplies power to the computer!</p>
+            </div>
+            <button disabled class="partbutton" name="part" onclick="loadPrompt('psu')" id="psuButton">Select Component</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom secondary">
+      <input type="number" name="budget" placeholder="Budget" class="budget" required />
+      <button disabled onclick="loadResults()" class="test" id="testButton">Test</button>
+      <div class="price-info">
+        <p>Total Price</p>
+        <h1 id="TotalPrice">$0.00</h1>
+      </div>
+    </div>  
+
+    <audio id="hover-sound" src="sounds/ui/hover.mp3" preload="auto"></audio>
+    <audio id="leave-sound" src="sounds/ui/leave.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="sounds/ui/click.mp3" preload="auto"></audio>
+
+    <audio id="cpu-sound" src="sounds/parts/cpu-install.mp3" preload="auto"></audio>
+    <audio id="cpucooler-sound" src="sounds/parts/cpuCooler-install.mp3" preload="auto"></audio>
+    <audio id="gpu-sound" src="sounds/parts/gpu-install.mp3" preload="auto"></audio>
+    <audio id="motherboard-sound" src="sounds/ui/motherboard-install.mp3" preload="auto"></audio>
+    <audio id="case-sound" src="sounds/parts/pc-case.mp3" preload="auto"></audio>
+    <audio id="psu-sound" src="sounds/parts/psu-install.mp3" preload="auto"></audio>
+    <audio id="ram-sound" src="sounds/parts/ram-install.mp3" preload="auto"></audio>
+    <audio id="ssd-sound" src="sounds/parts/ssd-install.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
