@@ -83,6 +83,14 @@ var sounds = {
   yay: "sounds/ui/yay.mp3",
 };
 
+var musicList = [
+  "sounds/music/Chopin - Nocturne op.9 No.2 - 128.mp3",
+  "sounds/music/Debussy - Clair de Lune - 128.mp3",
+];
+
+var playQueue = [];
+var currentSong = null;
+
 var installSounds = {
   cpu: "sounds/parts/cpu-install.mp3",
   cpuCooler: "sounds/parts/cpucooler-install.mp3",
@@ -641,5 +649,29 @@ function attachButtonSounds() {
     };
   });
 }
+
+function playRandomSong() {
+  document.removeEventListener("click", playRandomSong);
+
+  if (playQueue.length === 0) {
+    playQueue = [...musicList];
+  }
+
+  var randomIndex = Math.floor(Math.random() * playQueue.length);
+  var song = playQueue.splice(randomIndex, 1)[0];
+
+  if (currentSong) {
+    currentSong.pause();
+    currentSong.currentTime = 0;
+  }
+
+  currentSong = new Audio(song);
+  currentSong.volume = 0.5;
+  currentSong.play();
+
+  currentSong.addEventListener("ended", playRandomSong);
+}
+
+document.addEventListener("click", playRandomSong);
 
 attachButtonSounds();
