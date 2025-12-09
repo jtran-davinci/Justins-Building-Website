@@ -403,7 +403,6 @@ function checkSelection() {
 
 function loadPrompt(part) {
   AvailableBudget += PartList.prices[part];
-  PartList.prices[part] = 0;
   PromptTitle.textContent = part.charAt(0).toUpperCase() + part.slice(1);
   for (let individualpart in PartDatabase[part]) {
     let Part = PartDatabase[part][individualpart];
@@ -468,6 +467,8 @@ function closePrompt() {
       child.remove();
     }
   });
+
+  console.log(PartList)
 }
 
 function getFPSfromScore(gameScore, referenceScore, standardFPS) {
